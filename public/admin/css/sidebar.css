@@ -1,0 +1,37 @@
+    .sidebar-item {
+        list-style: none;
+    }
+    .sidebar-item a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #333;
+    }
+    .sidebar-item a:hover {
+        color: #007bff;
+    }
+
+    .image-container {
+        text-align: center;
+        opacity: 0; 
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .image-container.show {
+        opacity: 1;
+    }
+
+    #sidebarImage {
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s ease;
+    }
+
+    #sidebarImage.show {
+        transform: scale(1.05);
+    }
+
+    .sidebar-item i {
+        font-size: 24px;
+        margin-right: 10px;
+    }

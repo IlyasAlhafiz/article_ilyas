@@ -1,0 +1,92 @@
+    body {
+      background-color: #f4f6f8;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .intro-section {
+      background: linear-gradient(to right, #0d6efd, #6610f2);
+      color: white;
+      padding: 60px 30px;
+      border-radius: 10px;
+      margin: 60px auto 40px;
+      max-width: 1000px;
+      text-align: center;
+    }
+
+    .intro-section h1 {
+      font-weight: bold;
+      font-size: 36px;
+    }
+
+    .intro-section p {
+      font-size: 16px;
+      margin-top: 15px;
+      line-height: 1.7;
+    }
+
+    .penulis-card {
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      transition: all 0.3s ease-in-out;
+      background-color: #fff;
+      padding: 20px;
+      height: 100%;
+    }
+
+    .penulis-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+    }
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #dee2e6;
+      transition: transform 0.3s;
+    }
+
+    .profile-img:hover {
+      transform: scale(1.1);
+    }
+
+    .artikel-item {
+      font-size: 15px;
+    }
+
+    .artikel-meta {
+      font-size: 13px;
+      color: #888;
+    }
+
+    .tentang-artikel {
+      font-size: 14px;
+      color: #555;
+      margin-top: 6px;
+    }
+
+    .judul-penulis {
+      color: #333;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    .lihat-semua {
+      font-size: 14px;
+      font-weight: 500;
+      color: #0d6efd;
+      text-decoration: none;
+    }
+
+    .lihat-semua:hover {
+      text-decoration: underline;
+    }
+
+    .section-title {
+      margin: 40px 0 30px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 28px;
+      color: #333;
+    }

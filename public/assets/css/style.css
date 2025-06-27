@@ -1,0 +1,121 @@
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .page-heading {
+      background: linear-gradient(135deg, #00bdfe, #007aff);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .page-heading h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .page-heading p {
+      max-width: 600px;
+      margin: 20px auto 0;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .featured-contests h6 {
+      color: #00bdfe;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .featured-contests h4 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    .item {
+      background: white;
+      border-radius: 12px;
+      border: 1px solid #e0e0e0;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+      padding: 2px;
+    }
+
+    .item:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .thumb {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .thumb img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0 !important;
+      transition: none !important;
+    }
+
+    .thumb .foto-penulis {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      width: 42px;
+      height: 42px;
+      border-radius: 50% !important;
+      object-fit: cover;
+      border: 2px solid white;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      z-index: 2;
+      transition: transform 0.3s ease;
+    }
+
+    .thumb .foto-penulis:hover {
+      transform: scale(1.1);
+    }
+
+    .down-content {
+      padding: 12px;
+    }
+
+    .judul-artikel {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #333;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .down-content h6 {
+      margin: 0;
+      font-weight: 500;
+      color: #555;
+    }
+
+    .text-end {
+      text-align: right;
+    }
+
+    @media (max-width: 768px) {
+      .thumb img {
+        height: 180px;
+      }
+
+      .page-heading h2 {
+        font-size: 2rem;
+      }
+
+      .featured-contests h4 {
+        font-size: 1.5rem;
+      }
+    }

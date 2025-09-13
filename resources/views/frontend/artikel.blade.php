@@ -10,7 +10,7 @@
 </head>
 
 <body>
-{{-- kode --}}
+kode
   @include('frontend.layouts.navbar')
 
   <div class="contest-details" style="margin-top: 150px;">

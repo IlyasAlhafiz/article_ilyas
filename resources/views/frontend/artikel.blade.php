@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="{{ asset('assets/css/artikel.css') }}">
   <title>Pgrafi | Artikel</title>
 </head>
-{{-- isi --}}
+
 <body>
   @include('frontend.layouts.navbar')
 
